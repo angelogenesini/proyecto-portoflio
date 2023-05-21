@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Metadatos-->
+    <meta name="description" content="Portafolio de desarrollo web de Angelo Genesini">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Angelo Genesini | Desarrollo Web Front-End</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700&family=Montserrat:ital,wght@0,500;0,800;1,100&family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+   <!--barra de navegacion-->
+   <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+            <img class="rounded-circle" src="img/Favicon.png" width="50 " alt="Logo de la pagina web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--seccion hero-->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-perfil" src="img/Favicon.png" alt="Foto de Angelo Genesini">
+        <h1>Hola, soy Angelo Genesini</h1>
+        <h2>Maquetador Web y futuro desarrollador web Front-End.</h2>
+    </div>
+    <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="img/hero-inferior.svg" alt="Laptop, html, css y JS">
+    </div>
+  </section>
+
+  <!--Sobre mi-->
+  <section class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Angelo Genesini</h2>
+        <p class="seccion-texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur assumenda saepe officiis ipsum ratione impedit, porro, voluptatem nisi animi earum incidunt iste modi. Ullam blanditiis sed in ut, molestiae maxime?</p>
+    </div>
+  </section>
+
+  <!--Experiencia-->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+        <div class="row">
+            <!-- Desarrollo web -->
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Desarrollo web</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corporis vero quasi voluptas itaque recusandae explicabo aspernatur fugit. Pariatur libero rerum est praesentium harum perspiciatis nesciunt et, magni at placeat?</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Estudiante -->
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Estudiante</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corporis vero quasi voluptas itaque recusandae explicabo aspernatur fugit. Pariatur libero rerum est praesentium harum perspiciatis nesciunt et, magni at placeat?</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Coderhouse</span>
+                    <span class="badge text-bg-primary">FreeCodeCamp</span>                    
+                </div> 
+            </div>
+
+            <!-- Articulos -->
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Articulos</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam corporis vero quasi voluptas itaque recusandae explicabo aspernatur fugit. Pariatur libero rerum est praesentium harum perspiciatis nesciunt et, magni at placeat?</p>
+                <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Escribir</span>
+                    <span class="badge text-bg-primary">Editar</span>
+                    <span class="badge text-bg-primary">Blogs</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+  </section>
+
+  <!--Proyectos-->
+  <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que realice</h3>
+    <!-- Galeria de proyectos -->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="img/imgproyecto.jpg" alt="Proyecto1">
+                    <div class="overlay">
+                        <p>Proyecto 1</p>
+                        <div class="iconos-contenedor justify-content-center">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                  <img src="img/imgproyecto.jpg" alt="Proyecto1">
+                  <div class="overlay">
+                      <p>Proyecto 2</p>
+                      <div class="iconos-contenedor justify-content-center">
+                          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-6 col-lg-4 ">
+              <div class="proyecto">
+                  <img src="img/imgproyecto.jpg" alt="Proyecto1">
+                  <div class="overlay">
+                      <p>Proyecto 3</p>
+                      <div class="iconos-contenedor justify-content-center">
+                          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+        </div>
+    </div>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver mas proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>    
+  </section>
+  
+    <!--Scrips-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
